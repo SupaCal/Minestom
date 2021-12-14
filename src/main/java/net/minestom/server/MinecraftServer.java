@@ -646,8 +646,6 @@ public final class MinecraftServer {
         // Start server
         server.start();
 
-        extensionManager.gotoPostInit();
-
         LOGGER.info("Minestom server started successfully.");
 
         if (terminalEnabled) {
